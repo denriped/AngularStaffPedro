@@ -8,5 +8,5 @@ export interface User {
   empresa: string;
   telefono: string;
   activo: boolean;
-  fechaDesactivacion: Date;
+  fechaDesactivacion: Date | null;
 }

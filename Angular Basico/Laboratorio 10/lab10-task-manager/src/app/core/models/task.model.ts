@@ -5,5 +5,5 @@ export interface Task {
   completado: boolean;
   descripcion: string;
   fechaCreacion: Date;
-  fechaCierre: Date;
+  fechaCierre: Date | null;
 }
